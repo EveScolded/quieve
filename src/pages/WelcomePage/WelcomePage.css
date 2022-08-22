@@ -1,0 +1,19 @@
+.content {
+display: flex;
+flex-direction: column;
+}
+
+.input {
+background-color: #829CBC;
+color: white;
+border-radius: 6px;
+padding: 0 6px;
+margin: 10px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 10px;
+    height: 32px;
+}
