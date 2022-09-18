@@ -1,6 +1,11 @@
 .content {
 display: flex;
 flex-direction: column;
+min-width: 400px;
+}
+
+.welcomeHeader{
+    color: white;
 }
 
 .input {
@@ -13,7 +18,7 @@ margin: 10px;
 
 .buttonWrapper {
     display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
     margin: 5px 10px;
     height: 32px;
 }
